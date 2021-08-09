@@ -1,0 +1,2 @@
+﻿  test.c
+d:\microsoft visual studio\code\project3\project3\test.c(8): error C2065: “longlong”: 未声明的标识符
