@@ -1,4 +1,0 @@
-﻿  test.c
-D:\code\指针2\test.c(7,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“size_t”
-D:\code\指针2\test.c(7,9): message : 请考虑在格式字符串中使用“%zd”
-  指针2.vcxproj -> D:\code\指针2\x64\Debug\指针2.exe
