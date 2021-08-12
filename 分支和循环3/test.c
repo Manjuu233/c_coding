@@ -21,11 +21,15 @@ int main()
 	//return 0;
 
 	int ret = 0;
+	int ch = 0;
 	char passwd[20] = { 0 };
 	printf("请输入密码：>");
-	scanf("%s",passwd );
+	scanf("%s",passwd );//scanf读取到空格之前
 	printf("确认？");
-	getchar();//为什么要多一个getchar？
+	while ((ch = getchar()) != '\n')//为什么要多一个getchar？这样就没问题了吗？
+	{
+		;
+	}
 	ret = getchar();
 	if (ret == 'Y')
 	{
