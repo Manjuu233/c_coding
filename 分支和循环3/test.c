@@ -27,6 +27,7 @@ int main()
 	scanf("%s",passwd );//scanf读取到空格之前
 	printf("确认？");
 	while ((ch = getchar()) != '\n')//为什么要多一个getchar？这样就没问题了吗？
+		//getchar一次只能读取一个字符
 	{
 		;
 	}
